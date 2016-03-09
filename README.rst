@@ -65,7 +65,7 @@ Linux or Mac OS X is rougly as follows::
     git clone https://github.com/galaxyproject/pulsar
     cd pulsar
     virtualenv .venv
-    . .venv/bin/activate # .venv\Scripts\activate if Windows
+    . venv/bin/activate # .venv\Scripts\activate if Windows
     pip install -r requirements.txt
     pip install -r dev-requirements.txt
 
